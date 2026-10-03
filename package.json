@@ -1,0 +1,17 @@
+{
+  "name": "brivon-testnet-faucet-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone CLI example for the signed Brivon Testnet Airdrop API",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "faucet": "node src/request-airdrop.mjs"
+  },
+  "dependencies": {
+    "dotenv": "16.6.1",
+    "ethers": "6.17.0"
+  }
+}
